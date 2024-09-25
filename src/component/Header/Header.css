@@ -1,0 +1,56 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background: #000;
+    position: sticky;
+    top: 0;
+
+}
+.logo h3{
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    color: #b2ff9e;
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+    padding-left: 10rem;
+}
+.links{
+    margin-right: 10rem;
+}
+.links a{
+    text-decoration: none;
+    color: #b2ff9e;
+    padding-left: 6rem;
+    font-size: 1.5rem;
+}
+.links a:hover{
+    color: #ffffff;
+}
+.search{
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+#search{
+    width: 50%;
+    padding: 11px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    outline: none;
+}
+.btn{
+    padding: 8px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    position: absolute;
+    background:#31572c;
+    color: #b2ff9e;
+    transition: all .5s ease;
+}
+.btn:hover{
+    background: #b2ff9e;
+    color: #000;
+}

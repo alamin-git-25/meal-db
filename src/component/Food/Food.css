@@ -1,0 +1,15 @@
+.food-box{
+    width: 420px;
+    border: 2px solid;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 16px #00000036;
+    background:green;
+}
+.food-box img{
+    width: 100%;
+    border-radius: 8px;
+}
+.food-box h3{
+    color: #fff;
+}
